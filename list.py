@@ -1,0 +1,13 @@
+mylist = ["poorvi","Ashish","sandip","pankaj","shweta"]
+print(mylist)
+print(type(mylist))
+print(mylist[0])
+print(mylist[1])
+print(mylist[2])
+print(mylist[-1])
+print(mylist[2:5])
+print(mylist[:5])
+print(mylist[1:])
+print(mylist[1:8:2])
+print(mylist[:])
+print(mylist[::-1])
