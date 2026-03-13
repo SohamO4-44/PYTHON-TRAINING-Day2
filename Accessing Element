@@ -1,0 +1,24 @@
+print(mylist[0][0])   # prashant
+print(mylist[0][1])   # jha
+print(mylist[1][0])   # 85.56
+print(mylist[2][0])   # 440022
+print(mylist[2][1])   # yyy
+
+
+list1 = ["prashant","jha"]
+print(list1*2) #it will print 2 times
+list2 = [50,25.50]
+print(list1+list2)
+
+list2 = [50,25.50,"prashant"]
+del list2[2]
+print(list2)
+
+list2 = [50,25.50,"prashant"]
+list2.clear()
+print(list2)
+
+name = "prashant"
+print(name)
+myname = list(name) #typecasting
+print(myname)
